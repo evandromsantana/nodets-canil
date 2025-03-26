@@ -9,6 +9,7 @@ router.get('/', PageController.home);
 router.get('/dogs', PageController.dogs);
 router.get('/cats', PageController.cats);
 router.get('/fishes', PageController.fishes);
+router.get('/birds', PageController.birds);
 
 router.get('/search', SearchController.search);
 

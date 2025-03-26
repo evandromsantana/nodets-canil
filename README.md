@@ -1,18 +1,67 @@
-# nodets-canil
+## 🚀 nodets-canil
+Repositório criado para acompanhar o curso da B7Web no módulo Node + TypeScript.
+Aplicação desenvolvida com foco em aprendizado prático utilizando tecnologias modernas do ecossistema JavaScript/TypeScript.
 
-Repositorio criado para acompanhar o curso da b7web no modulo do curso node + typescripts
+## 🛠️ Tecnologias Utilizadas
+- Node.js
+- TypeScript
+- Express
+- Nodemon
+- EJS (template engine)
+- CSS puro
+- ts-node
 
-### Pré-requisitos globais
+## 📋 Pré-requisitos Globais
+Certifique-se de ter os seguintes pacotes instalados globalmente:
 
-'npm i -g nodemon typescript ts-node'
+'npm install -g nodemon typescript ts-node'
 
-## Instalação
+## 📦 Instalação
+Para instalar as dependências do projeto, execute:
 
-'npm i '
+'npm install '
 
-## Para rodar o projeto
+## ▶️ Rodando o Projeto
+Modo desenvolvimento com nodemon e ts-node:
 
 'npm run dev'
 
-## Link deployed
+Ou:
+
+npm run start-dev
+
+## 🔐 Variáveis de Ambiente
+⚠️ Para este projeto, não há necessidade de .env inicialmente.
+Caso implemente integração com banco de dados ou APIs externas, adicione um arquivo .env com as variáveis necessárias e use a biblioteca dotenv.
+
+## 🌐 Deploy
+Projeto disponível em produção:
+🔗 Link
+Deploy realizado via:
+npm run build
+node dist/index.js
+
+Vercel | Render | Railway (especifique onde hospedou)
+Para deploy em produção, é recomendado compilar o projeto:
+
+## 📁 Estrutura do Projeto
+
+nodets-canil/
+├── src/
+│   ├── controllers/
+|   ├── helpers/
+│   ├── models/
+│   ├── routes/
+│   ├── views/
+│   │   └── pages/
+│   └── ...
+├── public/
+ └── css/
+├── package.json
+├── tsconfig.json
+└── README.md
+
+## 🤝 Contribuição
+Contribuições são bem-vindas!
+Sinta-se à vontade para abrir issues ou pull requests.
 
