@@ -8,6 +8,8 @@
   },
   "scripts": {
     "tsc": "tsc",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
     "start": "node dist/server.js",
     "postinstall": "npm run tsc && copyfiles -u 1 src/**/*.mustache dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
